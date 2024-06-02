@@ -20,6 +20,7 @@
     letter-spacing: 0.02em;
   }
   /* #endregion Header */
+
   /* #region Section Hero */
   .hero {
     padding: 188px 0;
@@ -33,13 +34,9 @@
       url(../images/people-office\ 1_desk@1x.jpg);
   }
   .hero-title {
-   margin: 0 auto 48px;
-
-    --
-
-
-
-
+    margin: 0 auto 48px;
   }
   /* #endregion Section Hero */
+  /* #region Section Features */
+  /* #endregion Section Features */
 }
