@@ -31,7 +31,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office\ 1_desk@1x.jpg);
+      url(../images/people-office1_desk@1x.jpg);
   }
   .hero-title {
     margin: 0 auto 48px;
@@ -64,4 +64,6 @@
     font-weight: 400;
   }
   /* #endregion Section Features */
+  /* #region Section Team */
+  /* #endregion Section Team */
 }
