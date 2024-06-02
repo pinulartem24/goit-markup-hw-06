@@ -78,5 +78,16 @@
   }
   /* #endregion Section Features */
   /* #region Section Team */
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px 24px;
+  }
+  .team-member-photo {
+    max-width: 356px;
+  }
   /* #endregion Section Team */
 }

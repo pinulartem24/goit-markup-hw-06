@@ -65,5 +65,18 @@
   }
   /* #endregion Section Features */
   /* #region Section Team */
+  .team {
+    padding: 120px 0;
+  }
+  .team-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .team-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+    .team-member-photo {
+    max-width: 360px;
   /* #endregion Section Team */
 }
