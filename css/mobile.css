@@ -121,7 +121,6 @@
   padding: 72px 0;
   margin: 0 auto;
   max-width: 320px;
-  /* height: 432px; */
 }
 
 .hero-title {
@@ -158,4 +157,5 @@
     background-color: #404bbf;
     cursor: pointer;
   }
-/* #endregion Section Hero */
+  /* #endregion Section Hero */
+}
