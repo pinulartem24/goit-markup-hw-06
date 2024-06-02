@@ -60,5 +60,8 @@
     margin-bottom: 8px;
     text-align: center;
   }
+  .features-items-text {
+    font-weight: 400;
+  }
   /* #endregion Section Features */
 }
