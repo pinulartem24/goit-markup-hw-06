@@ -65,5 +65,17 @@
   }
   /* #endregion Section Hero */
   /* #region Section Features */
+  .features-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  .features-items {
+    width: calc((100% - 1 * 24px) / 2);
+  }
   /* #endregion Section Features */
+}
+
+.features-title {
+  text-align: left;
 }
