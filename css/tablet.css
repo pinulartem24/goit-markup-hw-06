@@ -73,9 +73,8 @@
   .features-items {
     width: calc((100% - 1 * 24px) / 2);
   }
+  .features-title {
+    text-align: left;
+  }
   /* #endregion Section Features */
-}
-
-.features-title {
-  text-align: left;
 }
