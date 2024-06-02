@@ -14,7 +14,11 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
 
   <body>
@@ -25,6 +29,15 @@
           <a class="logo" href="./index.html"
             >Web<span class="logo-studio">Studio</span></a
           >
+          <button
+            class="header-menu-btn"
+            type="button"
+            aria-label="mobile-menu-button"
+          >
+            <svg class="header-menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-mobmenu"></use>
+            </svg>
+          </button>
           <ul class="header-list">
             <li><a href="./index.html" class="nav-link current">Studio</a></li>
             <li><a href="" class="nav-link">Portfolio</a></li>
@@ -32,7 +45,7 @@
           </ul>
         </nav>
         <address class="address">
-          <ul class="adress-list">
+          <ul class="address-list">
             <li>
               <a href="mailto:info@devstudio.com" class="address-link"
                 >info@devstudio.com</a
@@ -51,7 +64,7 @@
 
     <main>
       <!-- #region Section Hero -->
-      <section class="hero">
+      <section class="hero hide">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button">Order Service</button>
@@ -61,7 +74,7 @@
 
       <!-- #region Section Feature -->
       <section class="features section">
-        <div class="container">
+        <div class="container hide">
           <h2 class="visually-hidden">Section2</h2>
           <ul class="features-list">
             <li class="features-items">
@@ -118,7 +131,7 @@
       <!-- #endregion Feature -->
 
       <!-- #region Section Team -->
-      <section class="team">
+      <section class="team hide">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -301,7 +314,7 @@
 
       <!-- #region Section Portfolio -->
       <section class="portfolio">
-        <div class="container">
+        <div class="container hide">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
@@ -431,7 +444,7 @@
     </main>
 
     <!-- #region Footer -->
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="container">
         <div class="footer-container">
           <a class="footer-logo" href="./index.html"
@@ -498,7 +511,7 @@
     </footer>
     <!-- #endregion Footer -->
     <!-- #region Modal -->
-    <div class="backdrop is-open">
+    <div class="backdrop hide">
       <div class="modal">
         <button class="modal-close-button" type="button">
           <svg class="modal-close-icon" height="8" width="8">
