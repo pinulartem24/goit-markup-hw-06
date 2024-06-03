@@ -98,4 +98,24 @@
     gap: 72px 24px;
   }
   /* #endregion Portfolio */
+  /* #region Footer */
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    text-align: left;
+  }
+  .footer-text {
+    max-width: 264px;
+  }
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  /* #endregin Footer */
 }
