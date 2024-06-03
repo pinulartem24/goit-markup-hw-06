@@ -76,18 +76,29 @@
     width: calc((100% - 3 * 24px) / 4);
   }
 
-    .team-member-photo {
+  .team-member-photo {
     max-width: 360px;
+  }
   /* #endregion Section Team */
-/* #region Portfolio */
-.portfolio {
-  padding: 120px 0;
-}
-.portfolio-list {
-  gap: 48px 24px;
-
-}
-/* #endregion Portfolio */
-/* #region Footer */
-/* #endregion Footer */
+  /* #region Portfolio */
+  .portfolio {
+    padding: 120px 0;
+  }
+  .portfolio-list {
+    gap: 48px 24px;
+  }
+  /* #endregion Portfolio */
+  /* #region Footer */
+  .footer {
+    padding: 100px 0;
+  }
+  .footer .container {
+    flex-wrap: nowrap;
+    align-items: baseline;
+    gap: 80px;
+  }
+  .footer-container {
+    margin-right: 40px;
+  }
+  /* #endregion Footer */
 }
