@@ -118,4 +118,9 @@
     width: 264px;
   }
   /* #endregion Footer */
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px;
+  }
 }
