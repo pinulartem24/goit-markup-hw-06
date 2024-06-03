@@ -90,4 +90,12 @@
     max-width: 356px;
   }
   /* #endregion Section Team */
+  /* #region Portfolio */
+  .portfolio-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  /* #endregion Portfolio */
 }

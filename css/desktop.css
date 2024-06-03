@@ -79,4 +79,13 @@
     .team-member-photo {
     max-width: 360px;
   /* #endregion Section Team */
+/* #region Portfolio */
+.portfolio {
+  padding: 120px 0;
+}
+.portfolio-list {
+  gap: 48px 24px;
+
+}
+/* #endregion Portfolio */
 }
